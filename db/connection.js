@@ -17,7 +17,7 @@ const pool = new Pool({
   host: PGHOST,
   port: PGPORT,
   database: PGDATABASE,
-  ssl: false
+  ssl: true
 })
 
 module.exports = pool;
